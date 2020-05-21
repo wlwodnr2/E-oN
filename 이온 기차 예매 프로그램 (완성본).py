@@ -49,7 +49,7 @@ class Train_reservation:
             self.want_train[0] = list(map(int,self.want_train[0]))
             return self.want_train
         except ValueError:
-            print ("입력이 잘못 되었습니다.")
+            print ("입력이 잘못 되었습니다. ex) 0830 서울 부산 KTX 로 입력해주세요")
             self.info_train()
     
     def calculator_train(self):
