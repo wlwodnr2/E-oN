@@ -15,7 +15,7 @@ def array_a(number, number_sum,horizon,vertical, control):
 
     if number != 1:   
         while True:
-            number_sum = number_sum + 1 #7넣었을 때 오류
+            number_sum = number_sum + 1 
             horizon = horizon + control
             double_list[horizon][vertical] = number_sum
             b = b + 1
